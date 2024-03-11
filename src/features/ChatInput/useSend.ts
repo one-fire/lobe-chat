@@ -16,6 +16,32 @@ export const useSendMessage = () => {
 
     const imageList = filesSelectors.imageUrlOrBase64List(useFileStore.getState());
 
+    const auth = localStorage.getItem('auth');
+    if (auth) {
+      const headerAuth = auth.split(':')[0];
+      fetch('https://xd.inpm.top/api/v1/ai/log/create', {
+        headers: {
+          Cookie: `XD_SESSION=${headerAuth}`,
+        },
+        method: 'POST',
+      })
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+        });
+    } else {
+      alert('非法请求。该设备首次使用时，请通过软开云系统按钮进入！');
+      return;
+    }
+
     sendMessage({
       files: imageList,
       message: store.inputMessage,
