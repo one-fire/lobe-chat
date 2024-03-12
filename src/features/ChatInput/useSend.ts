@@ -21,7 +21,7 @@ export const useSendMessage = () => {
       const headerAuth = auth.split(':')[0];
       fetch('https://xd.inpm.top/api/v1/ai/log/create', {
         headers: {
-          Cookie: `XD_SESSION=${headerAuth}`,
+          Authorized: headerAuth,
         },
         method: 'POST',
       })
