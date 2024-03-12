@@ -20,8 +20,12 @@ export const useSendMessage = () => {
     if (auth) {
       const headerAuth = auth.split(':')[0];
       fetch('https://xd.inpm.top/api/v1/ai/log/create', {
+        body: JSON.stringify({
+          use_model: 'gpt-35-turbo',
+        }),
         headers: {
-          Authorized: headerAuth,
+          'Authorized': headerAuth,
+          'Content-Type': 'application/json',
         },
         method: 'POST',
       })
