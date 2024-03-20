@@ -2,6 +2,323 @@
 
 # Changelog
 
+### [Version 0.139.1](https://github.com/lobehub/lobe-chat/compare/v0.139.0...v0.139.1)
+
+<sup>Released on **2024-03-17**</sup>
+
+#### 💄 Styles
+
+- **misc**: Improve model tags.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Improve model tags ([11cd5f4](https://github.com/lobehub/lobe-chat/commit/11cd5f4))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.139.0](https://github.com/lobehub/lobe-chat/compare/v0.138.2...v0.139.0)
+
+<sup>Released on **2024-03-16**</sup>
+
+#### ✨ Features
+
+- **misc**: Support openrouter as a new model provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support openrouter as a new model provider, closes [#1572](https://github.com/lobehub/lobe-chat/issues/1572) ([780b1a2](https://github.com/lobehub/lobe-chat/commit/780b1a2))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.138.2](https://github.com/lobehub/lobe-chat/compare/v0.138.1...v0.138.2)
+
+<sup>Released on **2024-03-15**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update Markdown in ChatItem.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update Markdown in ChatItem ([be75549](https://github.com/lobehub/lobe-chat/commit/be75549))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.138.1](https://github.com/lobehub/lobe-chat/compare/v0.138.0...v0.138.1)
+
+<sup>Released on **2024-03-15**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix URL typo.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix URL typo, closes [#1590](https://github.com/lobehub/lobe-chat/issues/1590) ([97137a9](https://github.com/lobehub/lobe-chat/commit/97137a9))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.138.0](https://github.com/lobehub/lobe-chat/compare/v0.137.0...v0.138.0)
+
+<sup>Released on **2024-03-15**</sup>
+
+#### ✨ Features
+
+- **misc**: Support groq as a model provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support groq as a model provider, closes [#1569](https://github.com/lobehub/lobe-chat/issues/1569) [#1562](https://github.com/lobehub/lobe-chat/issues/1562) [#1570](https://github.com/lobehub/lobe-chat/issues/1570) ([a04c364](https://github.com/lobehub/lobe-chat/commit/a04c364))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.137.0](https://github.com/lobehub/lobe-chat/compare/v0.136.0...v0.137.0)
+
+<sup>Released on **2024-03-15**</sup>
+
+#### ✨ Features
+
+- **ollama**: Improve connection check method and provide selector for user to control model options.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **ollama**: Improve connection check method and provide selector for user to control model options, closes [#1397](https://github.com/lobehub/lobe-chat/issues/1397) ([675902f](https://github.com/lobehub/lobe-chat/commit/675902f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.136.0](https://github.com/lobehub/lobe-chat/compare/v0.135.4...v0.136.0)
+
+<sup>Released on **2024-03-15**</sup>
+
+#### ✨ Features
+
+- **misc**: Support azure-ad as a new sso provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support azure-ad as a new sso provider, closes [#1456](https://github.com/lobehub/lobe-chat/issues/1456) ([6649cd1](https://github.com/lobehub/lobe-chat/commit/6649cd1))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.135.4](https://github.com/lobehub/lobe-chat/compare/v0.135.3...v0.135.4)
+
+<sup>Released on **2024-03-15**</sup>
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.135.3](https://github.com/lobehub/lobe-chat/compare/v0.135.2...v0.135.3)
+
+<sup>Released on **2024-03-15**</sup>
+
+#### 🐛 Bug Fixes
+
+- **ollama**: Fix duplicate llama model and add llama2-chinese models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **ollama**: Fix duplicate llama model and add llama2-chinese models, closes [#1579](https://github.com/lobehub/lobe-chat/issues/1579) ([6b9b5c8](https://github.com/lobehub/lobe-chat/commit/6b9b5c8))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.135.2](https://github.com/lobehub/lobe-chat/compare/v0.135.1...v0.135.2)
+
+<sup>Released on **2024-03-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Upgrade plugin db schema.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Upgrade plugin db schema, closes [#1571](https://github.com/lobehub/lobe-chat/issues/1571) ([757574a](https://github.com/lobehub/lobe-chat/commit/757574a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.135.1](https://github.com/lobehub/lobe-chat/compare/v0.135.0...v0.135.1)
+
+<sup>Released on **2024-03-14**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor the db model.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor the db model, closes [#1567](https://github.com/lobehub/lobe-chat/issues/1567) ([3d56dd6](https://github.com/lobehub/lobe-chat/commit/3d56dd6))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 0.135.0](https://github.com/lobehub/lobe-chat/compare/v0.134.1...v0.135.0)
+
+<sup>Released on **2024-03-14**</sup>
+
+#### ✨ Features
+
+- **misc**: Add claude 3 to bedrock provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add claude 3 to bedrock provider, closes [#1551](https://github.com/lobehub/lobe-chat/issues/1551) ([6e1fe33](https://github.com/lobehub/lobe-chat/commit/6e1fe33))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 0.134.1](https://github.com/lobehub/lobe-chat/compare/v0.134.0...v0.134.1)
+
+<sup>Released on **2024-03-13**</sup>
+
+#### 💄 Styles
+
+- **misc**: Add more model display name.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Add more model display name, closes [#1554](https://github.com/lobehub/lobe-chat/issues/1554) ([31c987a](https://github.com/lobehub/lobe-chat/commit/31c987a))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 0.134.0](https://github.com/lobehub/lobe-chat/compare/v0.133.5...v0.134.0)
 
 <sup>Released on **2024-03-13**</sup>
